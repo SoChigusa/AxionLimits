@@ -33,6 +33,27 @@ def col_alpha(col,alpha=0.1):
 #==============================================================================#
 
 
+def MySimplePlot(ax,filename,edgecolor='k',alpha=1,lw=1.5,y2=1e10,zorder=0.1,
+              linestyle='-',skip=1,edgealpha=1,rescale_m=False,
+              scale_x=1,scale_y=1,start_x=0,end_x=nan,MinorEdgeScale=1.5,AddMinorEdges=False,label=None):
+    dat = loadtxt(filename)
+    if end_x/end_x==1:
+        dat = dat[start_x:end_x,:]
+    else:
+        dat = dat[start_x:,:]
+    dat[:,0] *= scale_x
+    dat[:,1] *= scale_y
+    if rescale_m:
+        dat[:,1] = dat[:,1]/dat[:,0]
+    ax.plot(dat[0::skip,0],dat[0::skip,1],color=edgecolor,zorder=zorder,lw=lw,linestyle=linestyle,alpha=edgealpha,label=label)
+    if skip>1:
+        ax.plot([dat[-2,0],dat[-1,0]],[dat[-2,1],dat[-1,1]],color=edgecolor,zorder=zorder,lw=lw,linestyle=linestyle,alpha=edgealpha)
+    if AddMinorEdges:
+        ax.plot([dat[-1,0],dat[-1,0]],[dat[-1,1],MinorEdgeScale*dat[-1,1]],color=edgecolor,zorder=zorder,lw=lw,linestyle=linestyle,alpha=edgealpha)
+        ax.plot([dat[0,0],dat[0,0]],[dat[0,1],MinorEdgeScale*dat[0,1]],color=edgecolor,zorder=zorder,lw=lw,linestyle=linestyle,alpha=edgealpha)
+    return
+
+
 def PlotBound(ax,filename,edgecolor='k',facecolor='crimson',alpha=1,lw=1.5,y2=1e10,zorder=0.1,
               linestyle='-',skip=1,FillBetween=True,edgealpha=1,rescale_m=False,
               scale_x=1,scale_y=1,start_x=0,end_x=nan,MinorEdgeScale=1.5,AddMinorEdges=False):
