@@ -57,6 +57,15 @@ These plots appeared in the paper [Caputo et al. 2021](https://arxiv.org/abs/210
 ### &nbsp;
 ### &nbsp;
 ---
+[<img align="right" height="350" src="../plots/plots_png/COSTActionSummaryPlot_DarkPhoton.png">](https://github.com/cajohare/AxionLimits/raw/master/plots/plots_png/COSTActionSummaryPlot_DarkPhoton.png)
+### European particle physics strategy version
+### [View Notebook (.ipynb)](https://github.com/cajohare/AxionLimits/blob/master/UltraSimplifiedPlots.ipynb)
+### [Download (.pdf)](https://github.com/cajohare/AxionLimits/raw/master/plots/COSTActionSummaryPlot_DarkPhoton.pdf)
+### [Download (.png)](https://github.com/cajohare/AxionLimits/raw/master/plots/plots_png/COSTActionSummaryPlot_DarkPhoton.png)
+### &nbsp;
+### &nbsp;
+### &nbsp;
+---
 # Data files and references
 ## Combined limits
 * Combined DP haloscopes (without axion haloscopes): [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/DP_Combined_DarkMatterSearches.txt)
@@ -109,6 +118,7 @@ These plots appeared in the paper [Caputo et al. 2021](https://arxiv.org/abs/210
 * FAST radio antenna: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/FAST.txt), [reference](https://arxiv.org/abs/2207.05767)
 * FUNK: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/FUNK.txt), [reference](https://arxiv.org/abs/2003.13144)
 * GigaBREAD: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/GigaBREAD.txt), [reference](https://arxiv.org/abs/2310.13891)
+* Hefei haloscope: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/Hefei.txt), [reference](https://arxiv.org/abs/2310.13891)
 * LAMPOST (limit): [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/LAMPOST.txt), [reference](https://arxiv.org/abs/2110.01582)
 * LAMPOST (projection): [projection](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/Projections/LAMPOST.txt), [reference](https://arxiv.org/abs/1803.11455)
 * LOFAR (solar corona): [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/LOFAR.txt), [reference](https://arxiv.org/abs/2301.03622)
@@ -217,7 +227,7 @@ These have been recast using the scheme detailed in [arXiv:2105.04565](https://a
 * JWST: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/JWST.txt), [reference](https://arxiv.org/abs/2402.17140)
 * LeoT: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/LeoT.txt), [reference](https://arxiv.org/abs/1903.12190)
 * Parker Solar Probe: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/ParkerSolarProbe.txt), [reference](https://arxiv.org/abs/2405.12285)
-* INTEGRAL: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/INTEGRAL.txt), [reference](https://arxiv.org/abs/2406.19445)
+* INTEGRAL: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/DarkPhoton/INTEGRAL.txt), [reference1](https://arxiv.org/abs/2406.19445), [reference2](https://arxiv.org/abs/2412.00180)
 
 ## Black hole superradiance
 * Cardoso et al: [reference](https://arxiv.org/abs/1801.01420)

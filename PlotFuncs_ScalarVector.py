@@ -81,8 +81,8 @@ class ScalarPhoton():
         return
 
 
-    def YbSr(ax,text_label=r'{\bf Yb$^+$/Sr}',text_pos=[2e-20,1.5e-6],rotation=23,col='#a11b33',text_col='w',fs=15,zorder=0.0,text_on=True,Projection=False,edgealpha=1,lw=1,path_effects=line_background(1.5,'k')):
-        dat = loadtxt("limit_data/ScalarPhoton/YbSr.txt")
+    def QSNET(ax,text_label=r'{\bf QSNET}',text_pos=[2e-20,1.5e-6],rotation=23,col='#a11b33',text_col='w',fs=15,zorder=0.0,text_on=True,Projection=False,edgealpha=1,lw=1,path_effects=line_background(1.5,'k')):
+        dat = loadtxt("limit_data/ScalarPhoton/QSNET.txt")
         FilledLimit(ax,dat,text_label,y2=1e20,rotation=rotation,text_pos=text_pos,text_col=text_col,col=col,fs=fs,zorder=zorder,text_on=text_on,edgealpha=edgealpha,lw=lw,path_effects=path_effects)
         return
 
@@ -159,6 +159,13 @@ class ScalarPhoton():
         
     def AION(ax,text_label=r'{\bf AION}',text_pos=[1e-14,6e-7],rotation=51,col='#eb4034',text_col='#eb4034',fs=18,zorder=-1.1,text_on=True,Projection=False,edgealpha=1,lw=1.5):
         dat = loadtxt("limit_data/ScalarPhoton/Projections/AION-km.txt")
+        UnfilledLimit(ax,dat,text_label,y2=1e20,rotation=rotation,text_pos=text_pos,text_col=text_col,linestyle='--',edgecolor=col,fs=fs,zorder=zorder,text_on=text_on,edgealpha=edgealpha,lw=lw)
+        return
+
+
+
+    def QSNET_Projection(ax,text_label=r'{\bf QSNET}',text_pos=[1e-20,6.5e-10],rotation=28,col='#a11b33',text_col='#a11b33',fs=18,zorder=-1.1,text_on=True,Projection=False,edgealpha=1,lw=1.5):
+        dat = loadtxt("limit_data/ScalarPhoton/Projections/QSNET.txt")
         UnfilledLimit(ax,dat,text_label,y2=1e20,rotation=rotation,text_pos=text_pos,text_col=text_col,linestyle='--',edgecolor=col,fs=fs,zorder=zorder,text_on=text_on,edgealpha=edgealpha,lw=lw)
         return
 
@@ -308,7 +315,12 @@ class ScalarElectron():
         dat = loadtxt("limit_data/ScalarElectron/Projections/MAGIS-km.txt")
         UnfilledLimit(ax,dat,text_label,y2=1e20,rotation=rotation,text_pos=text_pos,text_col=text_col,linestyle='--',edgecolor=col,fs=fs,zorder=zorder,text_on=text_on,edgealpha=edgealpha,lw=lw)
         return    
-   
+
+    def QSNET_Projection(ax,text_label=r'{\bf QSNET}',text_pos=[0.8e-20,3.0e-9],rotation=30,col='#a11b33',text_col='#a11b33',fs=18,zorder=-100,text_on=True,Projection=False,edgealpha=1,lw=1.5):
+        dat = loadtxt("limit_data/ScalarElectron/Projections/QSNET.txt")
+        UnfilledLimit(ax,dat,text_label,y2=1e20,rotation=rotation,text_pos=text_pos,text_col=text_col,linestyle='--',edgecolor=col,fs=fs,zorder=zorder,text_on=text_on,edgealpha=edgealpha,lw=lw)
+        return
+    
 
 
         
@@ -335,7 +347,7 @@ class ScalarElectron():
 
         return
     
-    def OpticalMW(ax,text_label=r'{\bf Optical-MW clock}',text_pos=[3e-22,7e-8],rotation=29,col='#703e41',text_col='#703e41',fs=20,zorder=0,text_on=True,Projection=False,edgealpha=1,lw=1.5):
+    def OpticalMW(ax,text_label=r'{\bf Optical-MW clock}',text_pos=[1e-22,3e-8],rotation=29,col='#703e41',text_col='#703e41',fs=18,zorder=0,text_on=True,Projection=False,edgealpha=1,lw=1.5):
         dat = loadtxt("limit_data/ScalarElectron/Projections/OpticalMW.txt")
         UnfilledLimit(ax,dat,text_label,y2=1e20,rotation=rotation,text_pos=text_pos,text_col=text_col,linestyle='--',edgecolor=col,fs=fs,zorder=zorder,text_on=text_on,edgealpha=edgealpha,lw=lw)
         return

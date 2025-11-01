@@ -24,6 +24,15 @@
 ### &nbsp;
 ### &nbsp;
 ---
+[<img align="right" height="350" src="../plots/plots_png/COSTActionSummaryPlot_AxionElectron.png">](https://github.com/cajohare/AxionLimits/raw/master/plots/plots_png/COSTActionSummaryPlot_AxionElectron.png)
+### European particle physics strategy version
+### [View Notebook (.ipynb)](https://github.com/cajohare/AxionLimits/blob/master/UltraSimplifiedPlots.ipynb)
+### [Download (.pdf)](https://github.com/cajohare/AxionLimits/raw/master/plots/COSTActionSummaryPlot_AxionElectron.pdf)
+### [Download (.png)](https://github.com/cajohare/AxionLimits/raw/master/plots/plots_png/COSTActionSummaryPlot_AxionElectron.png)
+### &nbsp;
+### &nbsp;
+### &nbsp;
+---
 
 See [Berlin et al. 2023](https://arxiv.org/abs/2312.11601) for a summary of the physical effects of electron-coupled axions, where several of these limits and projections were compiled. I thank Kevin Zhou and Alex Millar for discussions related to this plot.
 
@@ -59,6 +68,7 @@ See [Berlin et al. 2023](https://arxiv.org/abs/2312.11601) for a summary of the 
 * Electron Storage Ring: [projection](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionElectron/Projections/ElectronStorageRing.txt),  [reference](https://arxiv.org/abs/2211.08439)
 * Fermionic Axion Interferometer:  [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionElectron/FermionicAxionInterferometer.txt),  [reference](https://arxiv.org/abs/2311.16364)
 * Magnon quantum nondemolition:  [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionElectron/Magnons.txt),  [reference](https://arxiv.org/abs/2102.08764)
+* MOSAIC [projection](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionElectron/Projections/MOSAIC.txt), [reference](https://arxiv.org/abs/2504.16160)
 * NV Centers [projection](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionElectron/Projections/NVCenters.txt), [reference](https://arxiv.org/abs/2302.12756)
 * Old comagnetometers:  [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionElectron/OldComagnetometers.txt),  [reference](https://arxiv.org/abs/1907.03767)
 * Future comagnetometers:  [projection](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionElectron/Projections/FutureComagnetometers.txt),  [reference](https://arxiv.org/abs/1907.03767)

@@ -16,6 +16,15 @@
 ### &nbsp;
 ### &nbsp;
 ---
+[<img align="right" height="350" src="../plots/plots_png/COSTActionSummaryPlot_AxionNeutron.png">](https://github.com/cajohare/AxionLimits/raw/master/plots/plots_png/COSTActionSummaryPlot_AxionNeutron.png)
+### European particle physics strategy version
+### [View Notebook (.ipynb)](https://github.com/cajohare/AxionLimits/blob/master/UltraSimplifiedPlots.ipynb)
+### [Download (.pdf)](https://github.com/cajohare/AxionLimits/raw/master/plots/COSTActionSummaryPlot_AxionNeutron.pdf)
+### [Download (.png)](https://github.com/cajohare/AxionLimits/raw/master/plots/plots_png/COSTActionSummaryPlot_AxionNeutron.png)
+### &nbsp;
+### &nbsp;
+### &nbsp;
+---
 
 # Data files and references
 
@@ -43,6 +52,7 @@ Note: CASPEr and nEDM limits account for stochastic correction reported in [1905
 * Casimir effect: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionNeutron/Casimir), [reference](https://arxiv.org/abs/2009.04517)
 * K-3He comagnetometer: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionNeutron/K-3He_Comagnetometer.txt), [reference](https://arxiv.org/abs/0809.4700)
 * Torsion balance: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionNeutron/TorsionBalance.txt), [reference](https://arxiv.org/abs/hep-ph/0611223)
+* Xe-129: [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionNeutron/129Xe.txt), [reference](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.191801)
 
 ## Other experiments
 * SNO (deuterium dissasociation): [limit](https://github.com/cajohare/AxionLimits/raw/master/limit_data/AxionNeutron/SNO.txt), [reference](https://arxiv.org/abs/2004.02733)
