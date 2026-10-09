@@ -1,0 +1,62 @@
+{
+  "description": "Raster-digitized light-fluxonium axion-photon sensitivity projection.",
+  "source_image": "dp_1v100_10mK_v2_1810_11006_nu1500-2500MHz.png",
+  "source_dataset": "Previously supplied fluxonium_5T files, preserved byte-for-byte.",
+  "mass_unit": "eV",
+  "coupling_unit": "GeV^-1",
+  "B0_T": 5.0,
+  "DP_polarization_power_factor_in_original_projection": 0.3333333333333333,
+  "axion_polarization_power_factor": 1.0,
+  "already_converted_to_5T": true,
+  "already_includes_polarization_correction": true,
+  "conversion": "g_GeV_inv = epsilon * mass_eV * 1e9 / (sqrt(3) * B0_T * 195.35)",
+  "assumptions": [
+    "Equal local axion and dark-photon dark-matter densities.",
+    "Uniform static B0 aligned with the cylinder axis and the detected electric-field mode.",
+    "Common cavity response is retained through the source sensitivity; do not remove the Bessel factor.",
+    "Device, cavity, noise, coherence, and readout performance unchanged by the applied magnetic field.",
+    "No new simulation, cavity-Q prescription, smoothing, or extrapolation."
+  ],
+  "curve_identities": {
+    "A": "Source blue curve; physical experimental scenario not established.",
+    "B": "Source orange curve; physical experimental scenario not established.",
+    "C": "Source light-blue curve; physical experimental scenario not established."
+  },
+  "curve_selection_status": "The user has not selected A, B, or C.",
+  "handoff_fallback_curve": "B",
+  "fallback_is_user_confirmed": false,
+  "fallback_reason": "Temporary, easily switchable selection for the requested single additional curve.",
+  "source_floor": {
+    "epsilon_floor": 1e-15,
+    "curve": "B",
+    "clipped_rows": 3,
+    "meaning": "Source-display-floor connector, not a resolved physical minimum.",
+    "instruction": "Retain for display, preserve flags; do not infer the true tip or fit a physical linewidth."
+  },
+  "statistics": {
+    "A": {
+      "rows": 387,
+      "mass_min_eV": 6.2111750989e-06,
+      "mass_max_eV": 1.0054340723e-05,
+      "minimum_tabulated_g_GeV_inv": 8.729361819308e-14,
+      "clipped_rows": 0,
+      "strictly_increasing_mass": true
+    },
+    "B": {
+      "rows": 339,
+      "mass_min_eV": 6.2111750989e-06,
+      "mass_max_eV": 1.0054243872e-05,
+      "minimum_tabulated_g_GeV_inv": 5.596827197415e-15,
+      "clipped_rows": 3,
+      "strictly_increasing_mass": true
+    },
+    "C": {
+      "rows": 372,
+      "mass_min_eV": 6.2111750989e-06,
+      "mass_max_eV": 1.0054326887e-05,
+      "minimum_tabulated_g_GeV_inv": 2.768377082569e-14,
+      "clipped_rows": 0,
+      "strictly_increasing_mass": true
+    }
+  }
+}

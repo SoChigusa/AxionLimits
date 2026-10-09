@@ -1,0 +1,173 @@
+{
+  "dataset": "HeavyFluxonium_5T",
+  "source_png": "dp_1v100_10mK_v2_2002_10653_nu20-30MHz.png",
+  "source_sha256": "cd024defe06cc6ae1eb6e034504235d5d62f0974a7f0af4072b0f6c194a065f2",
+  "source_size_px": [
+    1000,
+    743
+  ],
+  "source_type": "Digitized supplied plot; not a fresh physical simulation or experimental bound.",
+  "physical_assumptions": {
+    "B0_T": 5.0,
+    "B_eV2_per_T": 195.35,
+    "dp_polarization_power_factor": 0.3333333333333333,
+    "same_local_DM_density": true,
+    "unchanged_device_performance": true,
+    "same_uniform_axial_cylindrical_cavity_response": true,
+    "conversion": "g[GeV^-1] = epsilon*m[eV]*1e9/(sqrt(3)*5*195.35)",
+    "corrections_already_applied": true,
+    "remove_cavity_response": false
+  },
+  "calibration": {
+    "pixel_origin": "top left; x increases right, y increases down",
+    "x_tick_pixels": [
+      237.0,
+      318.0,
+      384.5,
+      440.5,
+      489.0,
+      532.0,
+      570.0,
+      822.0,
+      969.0
+    ],
+    "x_tick_mass_eV": [
+      4e-08,
+      5e-08,
+      6.000000000000001e-08,
+      7e-08,
+      8e-08,
+      9e-08,
+      1e-07,
+      2e-07,
+      3e-07
+    ],
+    "x_slope_px_per_decade": 836.6174852488548,
+    "x_intercept_px": 6426.356835002891,
+    "x_tick_max_abs_residual_px": 0.24707842326279206,
+    "y_tick_pixels": [
+      110.5,
+      197.0,
+      283.0,
+      369.0,
+      455.5,
+      541.5,
+      628.0
+    ],
+    "y_tick_log10_epsilon": [
+      -9.0,
+      -10.0,
+      -11.0,
+      -12.0,
+      -13.0,
+      -14.0,
+      -15.0
+    ],
+    "y_slope_px_per_decade": -86.21428571428567,
+    "y_intercept_px": -665.3571428571421,
+    "y_tick_max_abs_residual_px": 0.21428571428589294,
+    "top_axis_frequency_MHz_crosscheck": [
+      10.0,
+      20.0,
+      30.0
+    ],
+    "top_axis_x_residual_px": [
+      -0.22981220933525037,
+      -0.07677016620891663,
+      0.1022035083224182
+    ],
+    "Planck_eV_s": 4.135667696e-15
+  },
+  "digitization": {
+    "retained_pixel_columns": [
+      502,
+      648
+    ],
+    "points_per_curve": 147,
+    "sampling": "One measured trace center per visible image column, with antialiasing weights.",
+    "A_C_method": "Subpixel centroid of B-R chromatic contrast against grey background.",
+    "B_method": "Subpixel centroid of max(R-B-46,0), removing the orange fill baseline.",
+    "one_pixel_fractional_mass": 0.002756046453602945,
+    "one_pixel_fractional_epsilon": 0.027067544828477175,
+    "error_note": "Pixel scales are not statistical error bars or guaranteed accuracy; line width, blending, endpoint and calibration uncertainty remain. No smoothing/extrapolation.",
+    "clipped_tips": false,
+    "background_limits_included": false
+  },
+  "curves": {
+    "A": {
+      "source_color": "blue",
+      "rows": 147,
+      "clipped_rows": 0,
+      "mass_eV_endpoints": [
+        8.292379285402999e-08,
+        1.2393426867867082e-07
+      ],
+      "frequency_MHz_endpoints": [
+        20.0508839078714,
+        29.967172845763095
+      ],
+      "epsilon_dp_endpoints": [
+        9.30072887054581e-11,
+        8.192087950023721e-11
+      ],
+      "g_agamma_5T_GeV_inv_endpoints": [
+        4.558816327993041e-12,
+        6.0012534323806855e-12
+      ],
+      "image_y_endpoints": [
+        199.5,
+        204.25233644859813
+      ]
+    },
+    "B": {
+      "source_color": "orange",
+      "rows": 147,
+      "clipped_rows": 0,
+      "mass_eV_endpoints": [
+        8.292379285402999e-08,
+        1.2393426867867082e-07
+      ],
+      "frequency_MHz_endpoints": [
+        20.0508839078714,
+        29.967172845763095
+      ],
+      "epsilon_dp_endpoints": [
+        2.1019290928452044e-12,
+        2.418960807076472e-12
+      ],
+      "g_agamma_5T_GeV_inv_endpoints": [
+        1.0302750249060839e-13,
+        1.7720509026297734e-13
+      ],
+      "image_y_endpoints": [
+        341.4,
+        336.14
+      ]
+    },
+    "C": {
+      "source_color": "light blue",
+      "rows": 147,
+      "clipped_rows": 0,
+      "mass_eV_endpoints": [
+        8.292379285402999e-08,
+        1.2393426867867082e-07
+      ],
+      "frequency_MHz_endpoints": [
+        20.0508839078714,
+        29.967172845763095
+      ],
+      "epsilon_dp_endpoints": [
+        2.9459984047914965e-11,
+        2.5891462737208308e-11
+      ],
+      "g_agamma_5T_GeV_inv_endpoints": [
+        1.4440014128932217e-12,
+        1.8967231622626563e-12
+      ],
+      "image_y_endpoints": [
+        242.54545454545453,
+        247.38
+      ]
+    }
+  }
+}
